@@ -17,6 +17,11 @@
     "express": "^4.12.4",
     "express-session": "^1.11.2",
     "morgan": "^1.5.3",
-    "request": "^2.57.0"
+    "request": "^2.57.0",
+    "serve-favicon": "^2.2.1"
+  },
+  "devDependencies": {
+    "should": "^6.0.3",
+    "supertest": "^1.0.1"
   }
 }
