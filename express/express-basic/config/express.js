@@ -25,6 +25,8 @@ module.exports = function() {
   // Require all routes files
   require('../app/routes/index.server.routes.js')(app);
 
+  app.use(express.static('./public'));
+
   // Return configured app
   return app;
 };
